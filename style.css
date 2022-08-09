@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #444;
+  border-top: 10px solid blue;
+}
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+} */
+.main-header {
+  background-color: rgba(35, 33, 33, 0.033);
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+p {
+  margin-bottom: 15px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  width: 500px;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(9, 59, 177);
+}
+
+h2,
+h3 {
+  color: brown;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.coding {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+li {
+  margin-bottom: 20px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+ol,
+ul {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+article {
+  margin-bottom: 30px;
+}
+/* footer p {
+  font-size: 15px;
+} */
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+#copyright {
+  font-size: 15px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+.related {
+  list-style: none;
+}
+nav a:link {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+/* 
+li:nth-child(2) {
+  color: aqua;
+}
+li:nth-child(even) {
+  color: aqua;
+}
+li:nth-child(odd) {
+  background-color: rgb(185, 188, 8);
+} */
+
+a {
+  color: rgb(24, 22, 22);
+  text-decoration: underline;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: yellowgreen;
+  font-style: italic;
+}
+/*LVHA*/
+/* 
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: orange;
+}
+footer p {
+  color: aqua;
+}
+footer p {
+  color: aqua !important;
+} */
